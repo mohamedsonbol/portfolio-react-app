@@ -28,28 +28,31 @@ class Contact extends Component {
 							<div className="contact-list">
 								<List>
 									<ListItem>
-										<ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton'}}>
-                                            <i className="fa fa-phone-square" aria-hidden="true" />
-                                            (+971) 58 886 9439
-                                        </ListItemContent>
+										<ListItemContent>
+											<span>
+												<i className="fa fa-phone-square" aria-hidden="true" />(+971) 58 886
+												9439
+											</span>
+										</ListItemContent>
 									</ListItem>
 
 									<ListItem>
-										<ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton'}}>
-                                            <i className="fa fa-envelope" aria-hidden="true" />
-                                            mhmdezzat.eng@gmail.com
-                                        </ListItemContent>
+										<ListItemContent>
+											<span>
+											<i className="fa fa-envelope" aria-hidden="true" />
+											mhmdezzat.eng@gmail.com
+											</span>
+										</ListItemContent>
 									</ListItem>
 
-                                    <ListItem>
-										<ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton'}}>
-                                            <i className="fa fa-linkedin" aria-hidden="true" />
-                                            <a href="https://www.linkedin.com/in/mohamedsonbol/">
-                                                Mohamed Sonbol
-                                            </a>
-                                        </ListItemContent>
+									<ListItem>
+										<ListItemContent>
+											<span>
+											<i className="fa fa-linkedin" aria-hidden="true" />
+											<a href="https://www.linkedin.com/in/mohamedsonbol/">Mohamed Sonbol</a>
+											</span>
+										</ListItemContent>
 									</ListItem>
-                                    
 								</List>
 							</div>
 						</Cell>

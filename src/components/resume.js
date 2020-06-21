@@ -17,28 +17,29 @@ class Resume extends Component {
 								style={{ height: '200px' }}
 							/>
 						</div>
+						<div className="container">
+							<h2 style={{ paddingTop: '2em' }}>Mohamed Sonbol</h2>
+							<h4 style={{ color: 'grey' }}>Programmer</h4>
 
-						<h2 style={{ paddingTop: '2em' }}>Mohamed Sonbol</h2>
-						<h4 style={{ color: 'grey' }}>Programmer</h4>
+							<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
 
-						<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
-
-						<p>
-							Detailed-oriented, responsible and committed developer, with a get-it-done and high-quality
-							product spirit, and with over 3 years of experience defining requirements, designing,
-							implementing, testing and delivering professional landing pages and websites using a variety
-							of programming languages and technologies.
-						</p>
-						<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
-						<h5>Address</h5>
-						<p>Dubai, UAE.</p>
-						<h5>Phone</h5>
-						<p>(+971) 58 869 439</p>
-						<h5>Email</h5>
-						<p>mail@outlook.com</p>
-						<h5>Webite</h5>
-						<p>egyptiandeveloper.com</p>
-						<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
+							<p>
+								Detailed-oriented, responsible and committed developer, with a get-it-done and
+								high-quality product spirit, and with over 3 years of experience defining requirements,
+								designing, implementing, testing and delivering professional landing pages and websites
+								using a variety of programming languages and technologies.
+							</p>
+							<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
+							<h5>Address</h5>
+							<p>Dubai, UAE.</p>
+							<h5>Phone</h5>
+							<p>(+971) 58 869 439</p>
+							<h5>Email</h5>
+							<p>mail@outlook.com</p>
+							<h5>Webite</h5>
+							<p>egyptiandeveloper.com</p>
+							<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
+						</div>
 					</Cell>
 					<Cell className="resume-right-col" col={8}>
 						<h2>Education</h2>
@@ -90,7 +91,6 @@ class Resume extends Component {
 						<Skills skill="MongoDB" progress={70} />
 
 						<Skills skill="NodeJS" progress={70} />
-
 					</Cell>
 				</Grid>
 			</div>

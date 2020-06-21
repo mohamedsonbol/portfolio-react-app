@@ -1,87 +1,37 @@
+body, html{
+	height: 100%;
+	margin: 0;
+	font-family: "Lobster Two";
+}
+
 .header-color {
-  background: #ED213A;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  background: #136a8a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
-.landing-grid {
-  background: #ED213A;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.landing-page {
+  background: #136a8a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  height: 100vh;
 }
+.container{
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
 
-.projects-grid {
-  display: flex;
+  max-width: 960px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */  
 }
-
-/* Resume Page CSS */
-.resume-right-col {
-  background-color: #27221f;
-  color: white;
-  padding: 2em;
-}
-
-/* Resume Page CSS */
-
-
-/* Contact Page CSS */
-.contact-body {
-  margin: auto;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 2em;
-}
-
-.contact-grid {
-  text-align: center;
-  width: 80%;
-  height: 650px;
-  color: black;
-  margin-bottom: 20px;
-}
-
-.contact-grid h2 {
-  font-family: 'Anton', sans-serif;
-}
-
-.contact-grid p {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: 800;
-}
-
-.contact-grid hr {
-  border-top: 5px dotted black;
-  width: 50%;
-  margin: auto;
-}
-
-.contact-list {
-  padding: 2em;
-}
-
-.contact-list i {
-  font-size: 44px;
-  padding-right: 5rem;
-}
-
-.contact-list a {
-  text-decoration: none;
-  color: blueviolet;
-}
-/* Contact Page CSS */
 
 .avatar-img {
   height: 250px;
-  padding-top: 5em;
+  padding-top: 2em;
 }
 
 .banner-text {
@@ -112,7 +62,7 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 50%;
   margin: auto;
 }
@@ -122,3 +72,86 @@
   font-size: 5em;
   padding: 8px;
 }
+
+@media only screen and (max-width: 768px) {
+  .banner-text h1 {
+    font-size: 44px;
+  }
+
+  .social-links i {
+    color: white;
+    font-size: 3em;
+    padding: 10px;
+  }
+} 
+
+/* LANDING PAGE END */
+
+.projects-grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.projects-card {
+  width: 450px;
+  margin: 1em auto;
+}
+
+/* Resume Page CSS */
+.resume-right-col {
+  background-color: #27221f;
+  color: white;
+  padding: 2em;
+}
+
+/* Resume Page CSS */
+
+
+/* Contact Page CSS */
+.contact-body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  height: 650px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+}
+
+.contact-grid p {
+  font-family: 'Lucida', sans-serif;
+  font-weight: 600;
+}
+
+.contact-grid hr {
+  border-top: 3px solid #844fb2;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+}
+
+
+.contact-list i {
+  font-size: 34px;
+  padding-right: 3rem;
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: blueviolet;
+}
+/* Contact Page CSS */
+
