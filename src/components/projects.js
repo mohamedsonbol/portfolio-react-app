@@ -19,7 +19,7 @@ class Projects extends Component {
 						<CardTitle
 							style={{
 								color: '#fff',
-								height: '176px',
+								height: '210px',
 								background: `url(${Portfolio}) center / cover`
 							}}
 						>
