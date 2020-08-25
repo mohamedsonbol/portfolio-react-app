@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import MyPic from '../assets/mohamedsonbol.png';
 
 class Contact extends Component {
 	render() {
@@ -10,7 +11,7 @@ class Contact extends Component {
 						<Cell col={6}>
 							<h2>Mohamed Sonbol</h2>
 							<img
-								src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+								src={MyPic}
 								alt="Avatar"
 								style={{ height: '250px' }}
 							/>
@@ -27,20 +28,19 @@ class Contact extends Component {
 
 							<div className="contact-list">
 								<List>
-									<ListItem>
+									{/* <ListItem>
 										<ListItemContent>
 											<span>
-												<i className="fa fa-phone-square" aria-hidden="true" />(+971) 58 886
-												9439
+												<i className="fa fa-phone-square" aria-hidden="true" />
 											</span>
 										</ListItemContent>
-									</ListItem>
+									</ListItem> */}
 
 									<ListItem>
 										<ListItemContent>
 											<span>
 											<i className="fa fa-envelope" aria-hidden="true" />
-											mhmdezzat.eng@gmail.com
+											Mhmdezzat.eng@gmail.com
 											</span>
 										</ListItemContent>
 									</ListItem>
@@ -49,7 +49,16 @@ class Contact extends Component {
 										<ListItemContent>
 											<span>
 											<i className="fa fa-linkedin" aria-hidden="true" />
-											<a href="https://www.linkedin.com/in/mohamedsonbol/">Mohamed Sonbol</a>
+											<	a href="https://www.linkedin.com/in/mohamedsonbol/">@mohamedsonbol</a>
+											</span>
+										</ListItemContent>
+									</ListItem>
+
+									<ListItem>
+										<ListItemContent>
+											<span>
+											<i className="fa fa-github" aria-hidden="true" />
+											<	a href="https://github.com/mohamedsonbol">@mohamedsonbol</a>
 											</span>
 										</ListItemContent>
 									</ListItem>

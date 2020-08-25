@@ -30,12 +30,13 @@ body, html{
 }
 
 .avatar-img {
-  height: 250px;
-  padding-top: 2em;
+  width: 300px;
 }
 
 .banner-text {
-  background-color: black;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.8;
   width: 75%;
   margin: 0 auto;
@@ -65,6 +66,7 @@ body, html{
   justify-content: space-around;
   width: 50%;
   margin: auto;
+  padding: 20px;
 }
 
 .social-links i {
@@ -104,7 +106,12 @@ body, html{
   padding: 2em;
 }
 
-/* Resume Page CSS */
+/* Resume Page END */
+
+/* Projects Page */
+.text-bg {
+  background-color: #141E30;
+}
 
 
 /* Contact Page CSS */

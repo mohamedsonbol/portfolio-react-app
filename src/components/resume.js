@@ -3,16 +3,17 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import MyPic from '../assets/mohamedsonbol.png';
 
 class Resume extends Component {
 	render() {
 		return (
 			<div>
 				<Grid>
-					<Cell col={4}>
+					<Cell col={4} phone={8}>
 						<div style={{ textAlign: 'center' }}>
 							<img
-								src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+								src={MyPic}
 								alt="Avatar"
 								style={{ height: '200px' }}
 							/>
@@ -31,13 +32,13 @@ class Resume extends Component {
 							</p>
 							<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
 							<h5>Address</h5>
-							<p>Dubai, UAE.</p>
+							<p>Warsaw, Poland.</p>
 							<h5>Phone</h5>
-							<p>(+971) 58 869 439</p>
+							<p>NaN</p>
 							<h5>Email</h5>
-							<p>mail@outlook.com</p>
+							<p>mhmdezzat.eng@gmail.com</p>
 							<h5>Webite</h5>
-							<p>egyptiandeveloper.com</p>
+							<p>mohamedsonbol.com</p>
 							<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
 						</div>
 					</Cell>
