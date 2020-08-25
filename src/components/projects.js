@@ -26,7 +26,7 @@ class Projects extends Component {
 							Portfolio
 						</CardTitle>
 						<CardText>
-							My personal website is built with React, check my code on Github!
+							My personal website developed with React, check my code on Github!
 						</CardText>
 						<CardActions border>
 							<a href="https://github.com/mohamedsonbol/portfolio" target="_blank"><Button colored>Github</Button></a>
@@ -51,7 +51,7 @@ class Projects extends Component {
 							BlogApp
 						</CardTitle>
 						<CardText>
-							BlogApp built with node.js / express.js / mongoDB Atlas. Deployed on Netlify.
+							BlogApp developed with node.js, express.js, mongoDB Atlas and Bootstrap4.
 						</CardText>
 						<CardActions border>
 						<a href="https://github.com/mohamedsonbol/BlogApp" target="_blank"><Button colored>Github</Button></a>
@@ -70,8 +70,8 @@ class Projects extends Component {
 		return (
 			<div className="category-tabs">
 				<Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-					<Tab>React</Tab>
-					<Tab>Node/Express/MongoDB</Tab>
+					<Tab>Front-end</Tab>
+					<Tab>Full Stack</Tab>
 				</Tabs>
 				<section>
 					<Grid>
