@@ -55,7 +55,7 @@ class Projects extends Component {
 						</CardText>
 						<CardActions border>
 						<a href="https://github.com/mohamedsonbol/BlogApp" target="_blank" rel="noopener noreferrer"><Button colored>Github</Button></a>
-						<a href="https://secret-ridge-37795.herokuapp.com/blogs" target="_blank"><Button colored>Live Demo</Button></a>
+						<a href="https://secret-ridge-37795.herokuapp.com/blogs" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
 						</CardActions>
 						<CardMenu style={{ color: '#fff' }}>
 							<IconButton name="share" />
