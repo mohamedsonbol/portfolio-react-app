@@ -29,7 +29,7 @@ class Projects extends Component {
 							My personal website developed with React, check my code on Github!
 						</CardText>
 						<CardActions border>
-							<a href="https://github.com/mohamedsonbol/portfolio" target="_blank"><Button colored>Github</Button></a>
+							<a href="https://github.com/mohamedsonbol/portfolio" target="_blank" rel="noopener noreferrer"><Button colored>Github</Button></a>
 						</CardActions>
 						<CardMenu style={{ color: '#fff' }}>
 							<IconButton name="share" />
@@ -54,7 +54,7 @@ class Projects extends Component {
 							BlogApp developed with node.js, express.js, mongoDB Atlas and Bootstrap4.
 						</CardText>
 						<CardActions border>
-						<a href="https://github.com/mohamedsonbol/BlogApp" target="_blank"><Button colored>Github</Button></a>
+						<a href="https://github.com/mohamedsonbol/BlogApp" target="_blank" rel="noopener noreferrer"><Button colored>Github</Button></a>
 						<a href="https://secret-ridge-37795.herokuapp.com/blogs" target="_blank"><Button colored>Live Demo</Button></a>
 						</CardActions>
 						<CardMenu style={{ color: '#fff' }}>
