@@ -24,7 +24,7 @@ class Resume extends Component {
 
 							<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
 
-							<p>
+							<p style={{ textAlign: 'justify' }}>
 								4+ years of experience building and maintaining responsive websites. Proficient in HTML, CSS, and JavaScript. Plus, modern libraries and frameworks. With excellent interpersonal skills and the ability to work directly with clients to understand all the requirements to the details.
 							</p>
 							<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
@@ -58,7 +58,7 @@ class Resume extends Component {
 							endYear={2017}
 							location="Warsaw, Poland."
 							schooName="Warsaw University of Technology"
-							schoolDescription="Studied 1 Foundation Year in preperation for computer science studies"
+							schoolDescription="Pusuing my Bachelor's Degree in Computer Science"
 						/>
 
 						<Education
@@ -75,6 +75,7 @@ class Resume extends Component {
 						<Experience
 							startYear={2018}
 							endYear={2020}
+							location="Dubai, UAE."
 							jobName="Abalkhail Real Estate"
 							jobPosition="Front-end Developer"
 							jobDescription="Designed over 25 landing pages for multiple real estate projects using Bootstrap v4. Increased customer reach by designing a website for the business with WordPress. Automated the website for SEO Improvements and better User Experience.
@@ -84,6 +85,7 @@ class Resume extends Component {
 						<Experience
 							startYear={2015}
 							endYear={2018}
+							location="Freelancer"
 							jobName="Bebcard Digital Solutions"
 							jobPosition="Front-end Developer / WordPress"
 							jobDescription="Designed and deployed over 13 WordPress sites.

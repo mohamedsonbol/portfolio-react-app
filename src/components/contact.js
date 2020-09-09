@@ -15,7 +15,7 @@ class Contact extends Component {
 								alt="Avatar"
 								style={{ height: '250px' }}
 							/>
-							<p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
+							<p style={{ width: '75%', margin: 'auto', paddingTop: '1em', textAlign: 'justify'}}>
 								4+ years of experience building and maintaining responsive websites. Proficient in HTML, CSS, and JavaScript. Plus, modern libraries and frameworks. With excellent interpersonal skills and the ability to work directly with clients to understand all the requirements to the details.
 							</p>
 						</Cell>
