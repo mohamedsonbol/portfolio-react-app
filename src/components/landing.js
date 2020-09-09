@@ -13,10 +13,10 @@ class Landing extends Component {
 					/>
 
 					<div className="banner-text">
-						<h1>Full Stack Developer</h1>
+						<h1>Front-end Developer</h1>
 
 						<hr />
-						<p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express | MongoDB</p>
+						<p>Currently learning React by building projects. Learning Context API or maybe Redux.</p>
 						<div className="social-links">
 							{/* LinkedIn */}
 							<a href="https://www.linkedin.com/in/mohamedsonbol/" rel="noopener noreferrer" target="_blank">

@@ -9,6 +9,9 @@ class Education extends Component {
 					<p>
 						{this.props.startYear} - {this.props.endYear}
 					</p>
+					<p>
+						{this.props.location}
+					</p>
 				</Cell>
 				<Cell col={8}>
                     <h4 style={{marginTop: '0px'}}>

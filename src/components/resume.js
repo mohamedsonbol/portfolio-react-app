@@ -25,38 +25,48 @@ class Resume extends Component {
 							<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
 
 							<p>
-								Detailed-oriented, responsible and committed developer, with a get-it-done and
-								high-quality product spirit, and with over 3 years of experience defining requirements,
-								designing, implementing, testing and delivering professional landing pages and websites
-								using a variety of programming languages and technologies.
+								4+ years of experience building and maintaining responsive websites. Proficient in HTML, CSS, and JavaScript. Plus, modern libraries and frameworks. With excellent interpersonal skills and the ability to work directly with clients to understand all the requirements to the details.
 							</p>
 							<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
 							<h5>Address</h5>
 							<p>Warsaw, Poland.</p>
+
 							<h5>Phone</h5>
-							<p>NaN</p>
+							<p>+48 732 785 743</p>
+
 							<h5>Email</h5>
 							<p>mhmdezzat.eng@gmail.com</p>
+
 							<h5>Webite</h5>
 							<p>mohamedsonbol.com</p>
+
 							<hr style={{ borderTop: '3px solid #844fb2', width: '50%' }} />
+
+							<h5>Technologies</h5>
+							<p>
+							React, Redux, Less, Node.js, Express.js, Passport.js, EJS, MongoDB, Firebase, Git, Bash, 
+							Bootstrap4, MDBootstrap, WordPress, Scrum, REST API
+							</p>
+
 						</div>
 					</Cell>
 					<Cell className="resume-right-col" col={8}>
 						<h2>Education</h2>
 
 						<Education
-							startYear={2018}
-							endYear={2019}
-							schooName="Udemy - Colt Steel Instructor"
-							schoolDescription="Bootcamp Web Developer Certificate"
+							startYear={2015}
+							endYear={2017}
+							location="Warsaw, Poland."
+							schooName="Warsaw University of Technology"
+							schoolDescription="Studied 1 Foundation Year in preperation for computer science studies"
 						/>
 
 						<Education
-							startYear={2015}
-							endYear={2018}
-							schooName="Polish Japanese Academy of Information Technology"
-							schoolDescription="Bachelor of Engineering - BE"
+							startYear={2010}
+							endYear={2013}
+							location="Sharjah, United Arab Emirates."
+							schooName="Al Shola Private School"
+							schoolDescription="Obtained my High School Degree at one of the most highly reputed High Schools in UAE."
 						/>
 
 						<hr style={{ borderTop: '3px solid #e22947' }} />
@@ -64,34 +74,31 @@ class Resume extends Component {
 						<h2>Experience</h2>
 						<Experience
 							startYear={2018}
-							endYear="Now"
-							jobName="Freelance"
-							jobPosition="Web Developer"
-							jobDescription="Designing and deploying WordPress Websites.
-                            Preparing each website to be Search Engine friendly 
-                            Maintained and customized websites for the best performance, speed, and user experience. Delivered ready websites with quality content to customers while before deadlines"
+							endYear={2020}
+							jobName="Abalkhail Real Estate"
+							jobPosition="Front-end Developer"
+							jobDescription="Designed over 25 landing pages for multiple real estate projects using Bootstrap v4. Increased customer reach by designing a website for the business with WordPress. Automated the website for SEO Improvements and better User Experience.
+							Adding over 30 listings for real estate projects over PropertyFinder MYCRM."
 						/>
 
 						<Experience
 							startYear={2015}
 							endYear={2018}
 							jobName="Bebcard Digital Solutions"
-							jobPosition="Web Developer"
-							jobDescription="Designing and deploying WordPress Websites.
-                            Preparing each website to be Search Engine friendly 
-                            Maintained and customized websites for the best performance, speed, and user experience. Delivered ready websites with quality content to customers while before deadlines"
+							jobPosition="Front-end Developer / WordPress"
+							jobDescription="Designed and deployed over 13 WordPress sites.
+							Consulting clients, managing domain, and hosting deployments.
+							Automated websites for the best performance, speed, and user experience."
 						/>
 						<hr style={{ borderTop: '3px solid #e22947' }} />
+						
 						<h2>Skills</h2>
-						<Skills skill="JavaScript" progress={50} />
-
-						<Skills skill="HTML5/CSS" progress={75} />
-
-						<Skills skill="React" progress={50} />
-
+						<Skills skill="HTML5/CSS" progress={100} />
+						<Skills skill="NodeJS" progress={75} />
+						<Skills skill="JavaScript" progress={70} />
 						<Skills skill="MongoDB" progress={70} />
-
-						<Skills skill="NodeJS" progress={70} />
+						<Skills skill="React" progress={60} />
+						
 					</Cell>
 				</Grid>
 			</div>

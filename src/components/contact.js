@@ -16,10 +16,7 @@ class Contact extends Component {
 								style={{ height: '250px' }}
 							/>
 							<p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-								Detailed-oriented, responsible and committed developer, with a get-it-done and
-								high-quality product spirit, and with over 3 years of experience defining requirements,
-								designing, implementing, testing and delivering professional landing pages and websites
-								using a variety of programming languages and technologies.
+								4+ years of experience building and maintaining responsive websites. Proficient in HTML, CSS, and JavaScript. Plus, modern libraries and frameworks. With excellent interpersonal skills and the ability to work directly with clients to understand all the requirements to the details.
 							</p>
 						</Cell>
 						<Cell col={6}>
@@ -39,7 +36,7 @@ class Contact extends Component {
 									<ListItem>
 										<ListItemContent>
 											<span>
-											<i className="fa fa-envelope" aria-hidden="true" />
+												<i className="fa fa-envelope" aria-hidden="true" />
 											Mhmdezzat.eng@gmail.com
 											</span>
 										</ListItemContent>
@@ -48,8 +45,8 @@ class Contact extends Component {
 									<ListItem>
 										<ListItemContent>
 											<span>
-											<i className="fa fa-linkedin" aria-hidden="true" />
-											<	a href="https://www.linkedin.com/in/mohamedsonbol/">@mohamedsonbol</a>
+												<i className="fa fa-linkedin" aria-hidden="true" />
+												<	a href="https://www.linkedin.com/in/mohamedsonbol/">@mohamedsonbol</a>
 											</span>
 										</ListItemContent>
 									</ListItem>
@@ -57,8 +54,8 @@ class Contact extends Component {
 									<ListItem>
 										<ListItemContent>
 											<span>
-											<i className="fa fa-github" aria-hidden="true" />
-											<	a href="https://github.com/mohamedsonbol">@mohamedsonbol</a>
+												<i className="fa fa-github" aria-hidden="true" />
+												<	a href="https://github.com/mohamedsonbol">@mohamedsonbol</a>
 											</span>
 										</ListItemContent>
 									</ListItem>
