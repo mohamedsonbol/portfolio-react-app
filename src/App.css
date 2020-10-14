@@ -3,7 +3,9 @@ body, html{
 	margin: 0;
 	font-family: "Lobster Two";
 }
-
+a {
+  color: white;
+}
 .header-color {
   background: #136a8a;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
@@ -50,7 +52,7 @@ body, html{
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 2px solid white;
   width: 50%;
   margin: auto;
 }
@@ -98,7 +100,6 @@ body, html{
   width: 450px;
   margin: 1em auto;
 }
-
 /* Resume Page CSS */
 .resume-right-col {
   background-color: #27221f;

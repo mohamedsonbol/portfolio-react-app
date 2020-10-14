@@ -9,8 +9,8 @@ class Education extends Component {
 					<p>
 						{this.props.startYear} - {this.props.endYear}
 					</p>
-					<p>
-						{this.props.location}
+					<p >
+						<a style={{color: 'white'}} href="https://goo.gl/maps/iUJkLwCi9DNPRpk99" target="_blank">{this.props.location}</a>
 					</p>
 				</Cell>
 				<Cell col={8}>

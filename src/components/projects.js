@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button} from 'react-mdl';
 import Portfolio from '../assets/portfolio.png';
 import BlogApp from '../assets/blogapp2.png';
+import Bootstrap4 from '../assets/bootstrap4.png';
+import Landing from '../assets/landingpage.png';
+import Survey from '../assets/Surveyform.png';
+
 
 
 class Projects extends Component {
@@ -20,10 +24,10 @@ class Projects extends Component {
 							style={{
 								color: '#fff',
 								height: '210px',
-								background: `url(${Portfolio}) center / cover`
+								background: `linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(${Portfolio}) center / cover`
 							}}
 						>
-							Portfolio
+							React Portfolio
 						</CardTitle>
 						<CardText>
 							My personal website developed with React, check my code on Github!
@@ -31,9 +35,62 @@ class Projects extends Component {
 						<CardActions border>
 							<a href="https://github.com/mohamedsonbol/portfolio" target="_blank" rel="noopener noreferrer"><Button colored>Github</Button></a>
 						</CardActions>
-						<CardMenu style={{ color: '#fff' }}>
-							<IconButton name="share" />
-						</CardMenu>
+					</Card>
+					{/* Second Card */}
+					<Card shadow={5} className="projects-card">
+						<CardTitle 
+							style={{
+								color: '#fff',
+								height: '210px',
+								background: `linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(${Bootstrap4}) left / cover`
+							}}
+						>
+							Bootstrap Grids
+						</CardTitle>
+						<CardText>
+							Demonstrating my Bootstrap4 Skills using columns and rows.
+						</CardText>
+						<CardActions border>
+							<a href="https://codepen.io/mowhocodes/pen/eyyaeV" target="_blank" rel="noopener noreferrer"><Button colored>Codepen</Button></a>
+						</CardActions>
+					</Card>
+
+					{/* Third Card */}
+					<Card shadow={5} className="projects-card">
+						<CardTitle 
+							style={{
+								color: '#fff',
+								height: '210px',
+								background: `linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(${Landing}) center / cover`
+							}}
+						>
+						Landing Page
+						</CardTitle>
+						<CardText>
+							A FCC Project Designed with HTML5 / CSS3 / Flex.
+						</CardText>
+						<CardActions border>
+							<a href="https://codepen.io/mowhocodes/pen/QWELjqb" target="_blank" rel="noopener noreferrer"><Button colored>Codepen</Button></a>
+						</CardActions>
+					</Card>
+
+					{/* Fourth Card */}
+					<Card shadow={5} className="projects-card">
+						<CardTitle 
+							style={{
+								color: '#fff',
+								height: '210px',
+								background: `linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(${Survey}) center / cover`
+							}}
+						>
+						Survey Form
+						</CardTitle>
+						<CardText>
+							A FCC Project Designed with HTML5 / CSS3 / Flex.
+						</CardText>
+						<CardActions border>
+							<a href="https://codepen.io/mowhocodes/pen/mdPYZGe" target="_blank" rel="noopener noreferrer"><Button colored>Codepen</Button></a>
+						</CardActions>
 					</Card>
 				</div>
 			);
@@ -45,7 +102,7 @@ class Projects extends Component {
 							style={{
 								color: '#fff',
 								height: '176px',
-								background: `url(${BlogApp}) center / cover`
+								background: `linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(${BlogApp}) left / cover`
 							}}
 						>
 							BlogApp
@@ -57,9 +114,6 @@ class Projects extends Component {
 						<a href="https://github.com/mohamedsonbol/BlogApp" target="_blank" rel="noopener noreferrer"><Button colored>Github</Button></a>
 						<a href="https://secret-ridge-37795.herokuapp.com/blogs" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
 						</CardActions>
-						<CardMenu style={{ color: '#fff' }}>
-							<IconButton name="share" />
-						</CardMenu>
 					</Card>
 				</div>
 			);
@@ -71,7 +125,7 @@ class Projects extends Component {
 			<div className="category-tabs">
 				<Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
 					<Tab>Front-end</Tab>
-					<Tab>Full Stack</Tab>
+					<Tab>Full-stack</Tab>
 				</Tabs>
 				<section>
 					<Grid>
