@@ -10,13 +10,15 @@ class Contact extends Component {
 					<Grid>
 						<Cell col={6}>
 							<h2>Mohamed Sonbol</h2>
+							<hr />
+
 							<img
 								src={MyPic}
 								alt="Avatar"
 								style={{ height: '250px' }}
 							/>
-							<p style={{ width: '75%', margin: 'auto', paddingTop: '1em', textAlign: 'justify'}}>
-								4+ years of experience building and maintaining responsive websites. Proficient in HTML, CSS, and JavaScript. Plus, modern libraries and frameworks. With excellent interpersonal skills and the ability to work directly with clients to understand all the requirements to the details.
+							<p style={{ width: '75%', margin: 'auto', paddingTop: '.5em', textAlign: 'justify'}}>
+								2+ years of experience building and maintaining responsive websites. Proficient in HTML, CSS, and JavaScript. With excellent interpersonal skills. Ability to work directly with clients to understand requirements with attention to details.
 							</p>
 						</Cell>
 						<Cell col={6}>
@@ -45,8 +47,8 @@ class Contact extends Component {
 									<ListItem>
 										<ListItemContent>
 											<span>
-												<i className="fa fa-linkedin" aria-hidden="true" />
-												<	a href="https://www.linkedin.com/in/mohamedsonbol/">@mohamedsonbol</a>
+												<i className="fa fa-codepen" aria-hidden="true" />
+												<a style={{color: 'black'}} href="https://codepen.io/mowhocodes">My Codepen</a>
 											</span>
 										</ListItemContent>
 									</ListItem>
@@ -55,7 +57,7 @@ class Contact extends Component {
 										<ListItemContent>
 											<span>
 												<i className="fa fa-github" aria-hidden="true" />
-												<	a href="https://github.com/mohamedsonbol">@mohamedsonbol</a>
+												<a style={{color: 'black'}} href="https://github.com/mohamedsonbol">My Github</a>
 											</span>
 										</ListItemContent>
 									</ListItem>

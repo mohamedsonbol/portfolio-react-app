@@ -1,7 +1,10 @@
-body, html{
+html {
+	font-family: 'Poppins', sans-serif;
+
+}
+body {
 	height: 100%;
-	margin: 0;
-	font-family: "Lobster Two";
+	font-family: 'Poppins', sans-serif;
 }
 a {
   color: white;
@@ -10,23 +13,22 @@ a {
   background: #136a8a;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
 }
-
+.nav {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
 .landing-page {
   background: #136a8a;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   text-align: center;
   height: 100vh;
 }
 .container{
   margin-right: auto; /* 1 */
   margin-left:  auto; /* 1 */
-
   max-width: 960px; /* 2 */
-
   padding-right: 10px; /* 3 */
   padding-left:  10px; /* 3 */  
 }
@@ -36,6 +38,7 @@ a {
 }
 
 .banner-text {
+  font-family: 'Poppins', sans-serif;
   background: #141E30;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -131,12 +134,12 @@ a {
 }
 
 .contact-grid h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 
 .contact-grid p {
-  font-family: 'Lucida', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
 
